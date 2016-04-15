@@ -69,10 +69,7 @@ public class Panel_Datos extends javax.swing.JPanel {
         this.jTextISBLibro.setText(arreglo[3]);
     }
     
-    public void modificarDatos ()
-    {
-        
-    }
+    
     
     
 

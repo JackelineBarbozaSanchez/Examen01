@@ -68,7 +68,19 @@ public class Metodos_Usuario {
         {
             if(arrayListUsuario.get(contador).getNumeroPrestamo()==numero)
             {
-                
+               
+            }
+        }
+        
+    }
+    
+    public void Eliminar (int numero)
+    {
+         for(int contador=0;contador<arrayListUsuario.size();contador++)
+        {
+            if(arrayListUsuario.get(contador).getNumeroPrestamo()==numero)
+            {
+               this.arrayListUsuario.remove(contador);
             }
         }
         

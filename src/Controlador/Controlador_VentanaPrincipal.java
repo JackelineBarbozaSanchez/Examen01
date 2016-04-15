@@ -33,8 +33,6 @@ public class Controlador_VentanaPrincipal implements ActionListener{
         }
         if (e.getActionCommand().equals("Buscar"))
         {
-            
-            
            buscar();
             this.ventana.camposAgregar();
         }
@@ -44,6 +42,8 @@ public class Controlador_VentanaPrincipal implements ActionListener{
         }
         if (e.getActionCommand().equals("Eliminar"))
         {
+            this.metodos.Eliminar(ventana.devolverNumero());
+            this.ventana.limiar();
         }
     }
     
